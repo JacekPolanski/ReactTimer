@@ -1,0 +1,6 @@
+/node_modules/
+/.idea/
+server-compiled.js
+server-compiled.js.map
+webpack.config-compiled.js
+webpack.config-compiled.js.map
