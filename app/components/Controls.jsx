@@ -15,7 +15,7 @@ module.exports = React.createClass({
     var renderStartStopButton = () => {
       if (countdownStatus === 'started') {
         return <button className="button secondary" onClick={this.onStatusChanged('paused')}>Pause</button>
-      } else if (countdownStatus === 'paused') {
+      } else {
         return <button className="button primary" onClick={this.onStatusChanged('started')}>Start</button>
       }
     };
