@@ -45,7 +45,6 @@ module.exports = React.createClass({
   render: function () {
     var {count, countdownStatus} = this.state;
     var renderControlArea = () => {
-      debugger;
       if (countdownStatus !== 'stopped') {
         return <Controls countdownStatus={countdownStatus} onStatusChanged={this.handleStatusChanged}/>
       } else {
